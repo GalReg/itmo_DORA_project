@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/galie/itmo_DORA_project/mlruns/195063012307825301/925f5e17a60a4afe9d39583789a800c1/artifacts
+end_time: 1748202233605
+entry_point_name: ''
+experiment_id: '195063012307825301'
+lifecycle_stage: active
+run_id: 925f5e17a60a4afe9d39583789a800c1
+run_name: LogisticRegression
+run_uuid: 925f5e17a60a4afe9d39583789a800c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748202223552
+status: 3
+tags: []
+user_id: galie

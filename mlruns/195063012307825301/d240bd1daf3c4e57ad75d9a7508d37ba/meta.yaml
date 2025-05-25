@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/galie/itmo_DORA_project/mlruns/195063012307825301/d240bd1daf3c4e57ad75d9a7508d37ba/artifacts
+end_time: 1748202223539
+entry_point_name: ''
+experiment_id: '195063012307825301'
+lifecycle_stage: active
+run_id: d240bd1daf3c4e57ad75d9a7508d37ba
+run_name: RandomForest
+run_uuid: d240bd1daf3c4e57ad75d9a7508d37ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748202211722
+status: 3
+tags: []
+user_id: galie
