@@ -35,3 +35,29 @@ MLOps course
    ```bash
    dvc push
    ```
+
+## Трекинг экспериментов с MLflow
+
+MLflow используется для логирования параметров, метрик и артефактов экспериментов. Ниже приведено руководство по настройке и использованию.
+
+### Настройка MLflow
+
+1. **Установите MLflow**:
+   ```bash
+   pip install mlflow
+   ```
+   
+2. **Добавьте в код трекинг**:
+	```
+	import mlflow
+
+	mlflow.start_run()
+	mlflow.log_param("param1", 42)  # Логируем параметры
+	mlflow.log_metric("accuracy", 0.95)  # Логируем метрики
+	mlflow.end_run()
+	```
+Запуск UI:
+   ```bash
+   mlflow ui --port 5000
+   ```
+Просмотр экспериментов: http://localhost:5000
