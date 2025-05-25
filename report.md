@@ -1,4 +1,4 @@
-# Сравнение моделей на Purchase dataset
+# Purchase dataset compare models
 
 | Model              |   Accuracy |   F1 Score |   Training Time |
 |:-------------------|-----------:|-----------:|----------------:|
