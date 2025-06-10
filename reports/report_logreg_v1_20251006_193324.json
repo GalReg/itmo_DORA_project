@@ -1,0 +1,15 @@
+{
+  "model": "logreg_v1.joblib",
+  "test_date": "2025-06-10T19:33:24.123456",
+  "total_requests": 100,
+  "successful_requests": 98,
+  "error_rate": 0.02,
+  "accuracy": 0.7857,
+  "precision": 0.7632,
+  "recall": 0.8205,
+  "f1_score": 0.7909,
+  "avg_time": 0.0142,
+  "min_time": 0.0078,
+  "max_time": 0.0339,
+  "throughput": 70.42
+}

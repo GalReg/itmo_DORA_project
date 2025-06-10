@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ml-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./reports:/app/reports
+      - ./models:/app/models
+      - ./data:/app/data
+    environment:
+      - MODEL_PATH=models/rf_v1.joblib

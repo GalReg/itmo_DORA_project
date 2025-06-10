@@ -35,3 +35,47 @@ MLOps course
    ```bash
    dvc push
    ```
+
+# ML Model API
+
+API сервис для предсказания PurchaseStatus на основе данных о клиенте.
+
+## Запуск
+
+1. Установите зависимости:
+```bash
+pip install -r requirements.txt
+```
+
+2. Обучите и сохраните модели:
+```bash
+python -c "from app.models import train_and_save_models; train_and_save_models()"
+```
+
+3. Запустите сервис:
+```bash
+uvicorn app.main:app --reload
+```
+
+Или с помощью Docker:
+```bash
+docker-compose up --build
+```
+
+## Тестирование
+```bash
+python scripts/test_api.py
+```
+
+## Конфигурация:
+Измените .env файл для выбора модели:
+```bash
+MODEL_PATH=models/logreg_v1.joblib  # или models/rf_v1.joblib
+```
+
+## API Документация
+После запуска сервиса документация доступна по адресу:
+
+- http://localhost:8000/docs (Swagger UI)
+
+- http://localhost:8000/redoc (ReDoc)

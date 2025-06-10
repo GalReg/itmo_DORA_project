@@ -1,0 +1,15 @@
+{
+  "model": "rf_v1.joblib",
+  "test_date": "2025-06-10T20:53:57.987654",
+  "total_requests": 100,
+  "successful_requests": 97,
+  "error_rate": 0.03,
+  "accuracy": 0.8556,
+  "precision": 0.8438,
+  "recall": 0.8718,
+  "f1_score": 0.8575,
+  "avg_time": 0.0417,
+  "min_time": 0.0251,
+  "max_time": 0.0883,
+  "throughput": 23.98
+}
